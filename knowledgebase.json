@@ -1,0 +1,198 @@
+[ 
+{
+    "IF": ["Young", "node1", "year"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+}, 
+{
+    "IF": ["Young", "node2"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+}, 
+{
+    "IF": ["Young", "node3", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Young", "node4"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+}, 
+{
+    "IF": ["Young", "node5", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Young", "node6"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Young", "node7", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Young", "node8"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Young", "node9", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Young", "node10"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+}, 
+ 
+{
+    "IF": ["Adult", "node1", "year"],
+    "THEN": {
+       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Adult", "node2"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Adult", "node3", "year"],
+    "THEN": {
+       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Adult", "node4"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Adult", "node5", "year"],
+    "THEN": {
+       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Adult", "node6"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Adult", "node7", "year"],
+    "THEN": {
+        
+        "Survival Status": ["No"]
+    }
+},
+{
+    "IF": ["Adult", "node8"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Adult", "node9", "year"],
+    "THEN": {
+        
+        "Survival Status": ["No"]
+    }
+},
+{
+    "IF": ["Adult", "node10"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},
+ 
+{
+    "IF": ["Senior", "node1", "year"],
+    "THEN": {
+       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Senior", "node2"],
+    "THEN": {        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Senior", "node3", "year"],
+    "THEN": {       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Senior", "node4"],
+    "THEN": {        
+        "Survival Status": ["Yes"]
+    }
+},
+{
+    "IF": ["Senior", "node5", "year"],
+    "THEN": {
+       
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Senior", "node6"],
+    "THEN": {
+        
+        "Survival Status": ["Yes"]
+    }
+},	
+{
+    "IF": ["Senior", "node7", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Senior", "node8"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+}, 
+{
+    "IF": ["Senior", "node9", "year"],
+    "THEN": {
+        "Survival Status": ["No"]
+    }
+}, 
+{
+    "IF": ["Senior", "node10"],
+    "THEN": {
+        "Survival Status": ["Yes"]
+    }
+} 
+]
