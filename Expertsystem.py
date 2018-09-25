@@ -1,6 +1,7 @@
 '''
-#-------------An Expert System for prediction of a patient's survival after undergoing -----
-#------------- cancer surgery in last 5 years --------------------------------------------
+# An Expert System for prediction of a patient's survival after undergoing cancer surgery in last 5 years.
+# Rules retrieved from .json file
+# Entire dataset is tested and system prints rules and facts applied for each instance followed by its predicted status.
 '''
 import numpy as np
 import pandas as pd
@@ -47,11 +48,8 @@ if __name__ == "__main__":
     
      a,y,aux,cases = get_testcases()
      x = []
-     pred = []
-     acc = []
-     actual = []
      
-     for i in range(len(cases)):         # Testing on entire dataset (306 instances)...
+     for i in range(len(cases)):         # Testing on entire dataset...
         if((a[i]>29) and (a[i]<46)):
             f = "Young"
         elif(a[i]>=46 and a[i]<=60):
@@ -89,7 +87,7 @@ if __name__ == "__main__":
         conclusion = case
         status = testing(rules, facts)
         if len(status) > 0:
-            print('Survival Status: ' + str(status))            
+            print('Survival Status is:' + str(status))            
         x.append(status)
 
- #####------------------------------ END --------------------------------------------------##### 
+ #------------------------------------------------------ END OF FILE ---------------------------------------------------
