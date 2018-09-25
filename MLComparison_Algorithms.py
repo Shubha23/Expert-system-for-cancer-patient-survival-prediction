@@ -27,14 +27,14 @@ print(accuracy_score(y_test, prediction))
 
 # Classification using RBF SVM  
 from sklearn.svm import SVC
-svc_rbf = SVC(gamma=1, C=2)
+svc_rbf = SVC(gamma = 1, C = 1)
 svc_rbf = svc_rbf.fit(X_train,y_train)
 prediction = svc_rbf.predict(X_test)
 print(accuracy_score(y_test, prediction))
 
 # Classification using Random Forest Classifier
 from sklearn.ensemble import RandomForestClassifier
-rfc = RandomForestClassifier(max_depth= 1, n_estimators=10, max_features=1)
+rfc = RandomForestClassifier(n_estimators = 10, max_features = 'auto', Bootstrap = True)
 rfc = rfc.fit(X_train,y_train)
 prediction = rfc.predict(X_test)
 #print("5. RandomForestClassifier", prediction)
